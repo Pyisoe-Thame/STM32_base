@@ -19,3 +19,9 @@ Flexible programming expandable with sensors through I2C.
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+
+## Screenshots
+
+![PCB Design](https://github.com/Pyisoe-Thame/STM32_base/blob/main/image/pcb_design.JPG)
+![3D view](https://github.com/Pyisoe-Thame/STM32_base/blob/main/image/STM32_base.jpg)
+
