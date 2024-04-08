@@ -1717,6 +1717,22 @@
 		(color 0 0 0 0)
 		(uuid "ee95c9b1-5cd6-4144-ab25-c89d18a463f9")
 	)
+	(no_connect
+		(at 224.79 92.71)
+		(uuid "3919abdc-4f58-4e43-af8a-a16bcdb12fe3")
+	)
+	(no_connect
+		(at 224.79 82.55)
+		(uuid "39c96523-e270-4fe6-95f8-2b8ff5cf0cfd")
+	)
+	(no_connect
+		(at 224.79 87.63)
+		(uuid "cd586531-e728-49b2-a671-353cdc25d83f")
+	)
+	(no_connect
+		(at 224.79 97.79)
+		(uuid "fe19fde4-6ef8-43c6-b6a0-40b32b2bc045")
+	)
 	(wire
 		(pts
 			(xy 143.51 78.74) (xy 143.51 81.28)
@@ -1959,6 +1975,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 106.68) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9be1984-55f6-4c02-af86-09d9c061fb21")
+	)
+	(wire
+		(pts
 			(xy 130.81 100.33) (xy 143.51 100.33)
 		)
 		(stroke
@@ -2059,6 +2085,28 @@
 			)
 		)
 		(uuid "153359dd-957c-4b3c-9969-f3f7cb6290d6")
+	)
+	(global_label "Relay_Ctrl"
+		(shape input)
+		(at 119.38 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74fa0cf3-5894-4371-873f-94a39195ce26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.8397 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Relay:SANYOU_SRD_Form_C")
